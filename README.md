@@ -1,3 +1,3 @@
 # rocket
 A javascript rocket app
-play it at johansundman.github.io/rocket/
+play it at https://johansundman.github.io/rocket/
