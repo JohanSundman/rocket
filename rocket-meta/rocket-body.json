@@ -1,0 +1,54 @@
+{
+
+    "kerbodyne s314400" : {
+	
+	    "part"   : "body",
+	    
+		"image-path" : "img/part/",
+		
+		
+		"weight" : 9000,
+		
+		"fuel-type": "liquid",
+		"fuel-weight" : 72000,
+		
+		"entire-weight" : 81000
+		
+	},
+	
+	
+	"tteeest" : {
+	
+	    "part"   : "body",
+	    
+		"image-path" : "img/part/",
+		
+		
+		"weight" : 9000,
+		
+		"fuel-type": "liquid",
+		"fuel-weight" : 72000,
+		
+		"entire-weight" : 81000
+		
+	},
+	
+	
+	"teeest" : {
+	
+	    "part"   : "body",
+	    
+		"image-path" : "img/part/",
+		
+		
+		"weight" : 9000,
+		
+		"fuel-type": "liquid",
+		"fuel-weight" : 72000,
+		
+		"entire-weight" : 81000
+		
+	}
+
+
+}

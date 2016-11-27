@@ -1,0 +1,17 @@
+{
+
+    "mammoth" : {
+	
+	    "part" : "engine",
+		
+		"weight" : "15000",
+		
+		"fuel-type"             : "liquid",
+		"fuel-usage-per-second" : 1294.88
+	
+	}
+
+
+
+
+}
