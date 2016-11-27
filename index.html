@@ -10,33 +10,33 @@
     </head>
 	<body>
 	
-        
-		<div id="workshop">
-		
-		    <?php
-			    include "workshop.php";
-			?>
-		
-		</div>
-		
-		
-		
-		<div id="hangar">
-		
-		    <?php
-			    include "hangar.php";
-			?>
-		
+        <div id="build">
+		    <div id="workshop">
+		    	
+		    	<button onclick="getWorkshop('head')">Heads</button>
+		    	<button onclick="getWorkshop('body')">Bodies</button>
+		    	<button onclick="getWorkshop('engine')">Engines</button>
+            
+		    	<div id="workshop-display">
+            
+		    	</div>
+		    	<button onclick="launch()">Launch</button>
+		        
+		    </div>
+		    
+		    <div id="hangar">
+		    	
+		        
+		    	
+		    </div>
 		</div>
 		
 		
 		
 		<div id="launch">
-		
-		    <?php
-			    include "launch.php";
-			?>
-		
+			
+			
+			
 		</div>
 		
 		
