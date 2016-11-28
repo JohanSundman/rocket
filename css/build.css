@@ -1,0 +1,19 @@
+#build{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+	#workshop{
+		position: relative;
+		width: 35%;
+		min-width: 100px;
+		height: 100%;
+		background-color: #444;
+	}
+	#hangar{
+		position: relative;
+		height: 100%;
+		background-color: #ccc;
+	}
