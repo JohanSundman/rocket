@@ -4,11 +4,13 @@
 
 */
 
-
+    // Game information
+	var game = {
+		options: false
+	};
 
 
     // Every meta
-	
 	var meta = new Object();
 	
 	    // All the meta "types"

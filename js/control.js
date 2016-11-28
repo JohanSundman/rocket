@@ -4,7 +4,7 @@
     function launch(){
 		
 		// Change the environment to the rocket voyage launch thing
-		roomToogle(1);
+		roomToggle(1);
 		
 		
 		// Get the time everything started
@@ -24,17 +24,13 @@
 	
 	
 	
-	function roomToogle(state){
-		// Different states for different rooms
+	function roomToggle(state){
 		/*
-		    STATE LIST
-			1 = The rocket building phase
-			2 = the rocket voage
-		
-		*/
-		
+		 *  STATE LIST
+		 *	1 = The rocket building phase
+		 *	2 = the rocket voage
+		 */
 		switch(state){
-			
 			case 1:
 			    // The launch
 				document.getElementById("launch").style.display = "block";
@@ -49,10 +45,24 @@
 				
 			break;
 		}
-		
-		
-		
-		
-		
-		
+	}
+	
+	
+	function toggleOptions(state){
+		/*
+		 *  STATE LIST
+		 *	1 = Show options
+		 *	2 = Hide options
+		 */
+		switch(state){
+			case 1:
+				document.getElementById("options").style.display = "block";
+				// Some functions to stop
+			    break;
+			case 2:
+			default:
+				document.getElementById("options").style.display = "none";
+				// Some functions to start
+			break;
+		}
 	}
