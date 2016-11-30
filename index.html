@@ -12,10 +12,12 @@
         <div id="build">
 		    <div id="workshop">
 		    	
-		    	<button onclick="getWorkshop('head')">Heads</button>
-		    	<button onclick="getWorkshop('body')">Bodies</button>
-		    	<button onclick="getWorkshop('engine')">Engines</button>
-            
+				<div id="btn-build-container">
+					<button class="btn-build" onclick="getWorkshop('head')">Heads</button>
+					<button class="btn-build" onclick="getWorkshop('body')">Bodies</button>
+					<button class="btn-build" onclick="getWorkshop('engine')">Engines</button>
+				</div>
+			
 		    	<div id="workshop-display">
 					
 		    	</div>
@@ -32,7 +34,7 @@
 		
 		
 		<div id="launch">
-			<button onclick="roomToggle(2)"><-</button>
+			<button id="btn-launch-back" onclick="roomToggle(2)"><-</button>
 			
 			
 		</div>
@@ -63,6 +65,16 @@
 		<script>
 			// Temporary setup script
 			roomToggle(2); // Will launch directly into the building room
+			
+			
+			function waitingForAjax(){
+				if(meta.rocket.head.getJson){
+					window.clearInterval(fetchChecker);
+					getWorkshop('head'); // Show the head items at load
+				}
+			}
+			fetchChecker = window.setInterval(waitingForAjax, 100);
+			
 		</script>
 		
 	</body>	

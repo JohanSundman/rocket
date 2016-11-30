@@ -25,7 +25,7 @@
 	        	meta.rocket.head.getJson = function(){
 	        		
 	        		load(this.path, function(response){
-	        			meta.rocket.head.json = response
+	        			meta.rocket.head.json = response;
 	        		});
 	        	    
 	        		return true;
@@ -41,7 +41,7 @@
 	        	meta.rocket.body.getJson = function(){
 	        		
 	        		load(this.path, function(response){
-	        			meta.rocket.body.json = response
+	        			meta.rocket.body.json = response;
 	        		});
 	        	    
 	        		return true;
@@ -57,7 +57,7 @@
 	        	meta.rocket.engine.getJson = function(){
 	        		
 	        		load(this.path, function(response){
-	        			meta.rocket.engine.json = response
+	        			meta.rocket.engine.json = response;
 	        		});
 	        	    
 	        		return true;

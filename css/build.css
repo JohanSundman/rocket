@@ -30,13 +30,29 @@
 		    	border-radius: 5px;
 		    }
 		        .part-name{
-		    		color: #c37804;
-		    		
+		    		color: #ffffff;
+		    		text-align: center;
 		    	}
 		    	.part-image{
 		    		width: 100%;
 		    		
 		    	}
+		#btn-build-container{
+			width: 90%;
+			height: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+			.btn-build{
+				width: 30%;
+				background-color: #ED4337;
+				color: #fff;
+				padding: 0px;
+				font-size: 18px;
+				border: 0px;
+				outline: none;
+				overflow: hidden;
+			}
 		#btn-launch{
 			position: absolute;
 			left: 15%;
@@ -50,6 +66,9 @@
 			border-radius: 5px;
 			outline: none;
 			overflow: hidden;
+		}
+		#btn-launch:hover{
+			background-color: #e61608;
 		}
 		
 	#hangar{
